@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root{
+    --mainColor: #333086;
+    --accentColorLight: #e8e3d3;
+    --accentColorDark: #85754d;
+    --tylerColor: #024D1F;
+    --caseyColor: #1952ed;
+    --reneColor: #570774;
+    --samColor: #b95e0a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  max-width: 1000px;
+  padding: 2em;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 800;
+  color: var(--mainColor);
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    max-width: 1000px;
+    padding: 0em;
+    margin: auto;
+    color: var(--tylerColor);
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    max-width: 1000px;
+    padding: 0em;
+    margin: auto;
+    color: var(--caseyColor);
+}
+
+h5 {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    max-width: 1000px;
+    padding: 0em;
+    margin: auto;
+    color: var(--reneColor);
+}
+
+h6 {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    max-width: 1000px;
+    padding: 0em;
+    margin: auto;
+    color: var(--samColor);
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.profile {
+    text-align: left;
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.profile img {
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+}
+
+.right_header {
+  color: var(--mainColor);
+  float: right;
+}
+
+.left_header {
+  color: var(--mainColor);
+  float: left;
+}
+
+.header img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.assignment a {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+
+.assignment b {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+
+.assignment a:hover {
+  color: var(--accentColorDark);
+}
+
+.assignment img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.assignment p {
+  margin-top: 0.5em;
+}
+
+.top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: 50%;
+}
+
+.right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: auto;
+    width: 50%;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 50%;
+}
+  
+.bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 50%;
+}
